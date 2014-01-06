@@ -1,0 +1,16 @@
+name: inkblur-tools-api
+version: 0.0.1
+description: An api for tools of different plugins
+# We could place every author in the authors list, but chose not to for illustrative purposes
+# Also, having an author distinguishes that person as the project lead, and ensures their 
+# name is displayed first
+author: ZombieHippie
+
+main: com.inkblur.tools.ToolsApi
+
+commands:
+  testtool:
+    description: Used for testing the api
+  tool:
+    description: Used for changing tool settings
+    aliases: [t]
